@@ -17,7 +17,7 @@
 #endif
 
 #if ! POPSIFT_IS_DEFINED(POPSIFT_DISABLE_GRID_FILTER)
-
+#include <thrust/host_vector.h>
 #include <thrust/copy.h>
 #include <thrust/device_vector.h>
 #include <thrust/execution_policy.h>
